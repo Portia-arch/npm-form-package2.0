@@ -1,0 +1,27 @@
+{
+  "name": "npm-form-package2.0-main",
+  "version": "1.0.0",
+  "description": "NPM  package that  handles forms. It will generate the UI of the form and submition validation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/babel src --out-file index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Portia-arch/npm-form-package2.0.git"
+  },
+  "author": "Portia-arch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Portia-arch/npm-form-package2.0/issues"
+  },
+  "homepage": "https://github.com/Portia-arch/npm-form-package2.0#readme",
+  
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.5"
+  }
+}
